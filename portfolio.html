@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dhanushri | AI &amp; DS Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+
+        /* Navigation */
+        header {
+            background-color: #111827;
+            padding: 18px 8%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        /* Common Section */
+        section {
+            padding: 80px 10%;
+            min-height: 100vh;
+        }
+
+        /* Home */
+        #home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a, #2563eb);
+            color: white;
+        }
+
+        #home h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        #home p {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: white;
+            color: #2563eb;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        /* About */
+        #about {
+            text-align: center;
+            background-color: white;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 30px auto;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* Skills */
+        #skills {
+            text-align: center;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .skill {
+            background-color: white;
+            padding: 25px;
+            width: 180px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+
+        /* Certificates */
+        #certificates {
+            background-color: white;
+            text-align: center;
+        }
+
+        .certificate-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .certificate {
+            background-color: #f8fafc;
+            padding: 25px;
+            width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .certificate h3 {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mobile */
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                gap: 12px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            #home h1 {
+                font-size: 35px;
+            }
+
+            #home p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Dhanushri</div>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home">
+        <div>
+            <h1>Hello, I'm Dhanushri</h1>
+            <p>Pre-Final Year AI &amp; DS Student | Python &amp; Java Developer</p>
+
+            <a href="#about" class="btn">Explore My Portfolio</a>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="content">
+            <p>
+                Hello! I am Dhanushri, a passionate pre-final year Artificial
+                Intelligence and Data Science student at SKP Engineering College,
+                Tiruvannamalai. I enjoy programming, exploring AI and data-driven
+                technologies, and building useful projects with Python and Java.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">Python</div>
+
+            <div class="skill">Java</div>
+
+        </div>
+    </section>
+
+
+    <!-- Certificates -->
+    <section id="certificates">
+        <h2>My Certificates</h2>
+
+        <div class="certificate-container">
+
+            <div class="certificate">
+                <h3>Python Programming</h3>
+                <p>Certificate in Python programming and application development.</p>
+            </div>
+
+            <div class="certificate">
+                <h3>Java Programming</h3>
+                <p>Certificate in Java programming and object-oriented development.</p>
+            </div>
+
+            <div class="certificate">
+                <h3>AI &amp; Data Science</h3>
+                <p>Certificate in artificial intelligence and data science fundamentals.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Dhanushri | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
